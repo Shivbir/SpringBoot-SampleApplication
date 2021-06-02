@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    tfe = {
-      version = "~> 0.25.0"
-    }
-  }
-}
-
 variable "region" {
   default     = "us-east-1"
   description = "AWS region"
